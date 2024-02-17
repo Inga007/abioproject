@@ -1,0 +1,125 @@
+.readMoreButton{
+    cursor: pointer;
+
+}
+
+.video__container{
+    background-image:url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid;
+    padding-bottom: 40px;
+}
+.min__containerVideo{
+    margin:  auto;
+    width: 90%;
+
+}
+.video__top{
+    width: 90%;
+    margin: 50px auto;
+    font-weight: 300;
+    font-size: 16px;
+}
+.video__top-green{
+    color: #58776D;
+    font-weight: 700;
+}
+.video__area{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    /* align-items: center;
+    width: 75%; */
+    height: auto;
+}
+.allVideo{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    margin-top: 50px;
+    font-family: 'Roboto';
+
+}
+.video__name{
+    font-weight: 700;
+    font-size: 28px;
+    font-family: 'Roboto';
+    margin-block-start: 0em;
+    
+}
+
+
+.video__text{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #0E0E0E;
+}
+.video__button{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+.video__data{
+    display: flex;
+    align-items: flex-end;
+  
+}
+.video__btn{
+    background: #FDFDFF;
+    border: 1px solid #113E2E;
+    border-radius: 4px;
+    padding: 16px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+    color: black;
+    margin-top: 50px;
+    }
+.video__btn:hover{
+    background-color: #113E2E;
+    color: white;
+    transition: 1s;
+}
+.video__serch{
+    float: right;
+    /* padding: 25px; */
+    padding: 0px 20px 0px 20px;
+    position: relative;
+}
+.video__serch input{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 5px;
+    padding-left: 35px;
+}
+.video__serch-icon{
+    position: absolute;
+    left: 25px;
+    padding: 7px;
+}
+
+.video__video{
+    /* width: 40%;
+    height: auto; */
+   
+    
+}
+.video__info{
+    /* width:40% ; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.video__text{
+    overflow: visible;
+    /* height: 150px; */
+}

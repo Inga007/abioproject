@@ -1,0 +1,328 @@
+
+@media screen and (max-width: 1300px){
+    .product___item-img {
+        width: 540px;
+        height: 670px;
+        margin-top: 50px;
+    }
+    .global_item_img{
+        width: 540px;
+       
+    }
+    .app_gallery_content{
+        top: 50px
+    }
+}
+@media screen and (max-width: 1190px){
+    .product__item-text{
+        width: 40%;
+        margin-left: 10px
+    }
+    .product__item-block {
+        width: 97%;
+    }
+}
+@media screen and (max-width: 1010px){
+    .product___item-img{
+        width: 500px;
+    }
+    .global_item_img{
+        width: 500px;
+        height: 820px;
+    }
+    .app_gallery_content{
+        top: 20px
+    }
+    .product__item-color .W, .product__item-color .B, .product__item-color .G, .product__item-color .BL, .product__item-color .V, .product__item-color .R, .product__item-color .P, .product__item-color .BR, .product__item-color .I, .product__item-color .GR, .product__item-color .O, .product__item-color .Y, .product__item-color .GL, .product__item-color .S, .product__item-color .C {
+        width: 12px;
+        height: 12px;}
+}
+@media screen and (max-width: 950px){
+    .global_item_img{
+        width: 320px;
+        height: 620px;
+ 
+    }
+   
+    .app_gallery_content{
+        top: 120px}
+}
+
+@media screen and (max-width: 744px){
+      .product___item-img{
+        height: 450px;
+        width: 45%;
+    }
+  
+    .product__item-color{
+        flex-wrap: wrap;
+    }
+    .W, .B, .G, .BL, .V, .R, .P, .BR, .I, .GR, .O, .Y, .GL, .S, .C{
+        margin-right: 5px;
+        margin: 5px;
+
+    }
+  
+    .product___item-images{
+        width: 100%;
+        height: 100%;
+    }
+   .container__item {
+    width: 90%;
+    margin: 0 auto;
+}
+   .product__item-text1{
+    font-size: 20px;
+   }
+   .product__item-text2{
+    font-size: 18px;
+   }
+   .product__item-priceNew{
+    font-size: 20px;
+   }
+   .product__item-priceOld{
+    font-size: 14px;
+   }
+   .product__item-price {
+    width: auto;
+   }
+   .product__item-text3{
+    font-size: 15px;
+    width: auto;
+   }
+   .product__item-btn {
+    width: auto;
+   }
+   .product__item-text8{
+    width: auto;
+   }
+   .product__item-block {
+    width: 90%;
+    margin: 0 auto;
+}
+    .product__item-text {
+        width: 40%;
+    }
+    .product__item-text4{
+        width: 40%;
+
+    }
+    .product___item-img svg{
+        width: 30px;
+        height: 26px;
+        top: 0px;
+        right: 0px;
+    }
+    .product__item-text {
+        width: 40%;
+        line-height: 15px;
+        margin-left: 10px;
+    }
+    .product__item-btn {
+
+        padding: 10px 30px;
+    }
+    /* .imgChange{
+        height: 550px!important;
+    } */
+
+}
+@media screen and (max-width: 700px){
+    .global_item_img{
+        width: 280px;
+      
+ 
+    }
+
+}
+@media screen and (max-width: 630px){
+    .product___item-images {
+        width: 260px;
+    }
+}
+@media screen and (max-width: 600px){
+    .product__item-text7,.product__item-text8{
+        display: none;
+    }
+ 
+    .product__item-text7Res,
+    .product__item-text6{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+
+    }
+    .product__item-text6 a{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .responsProduct{
+        display: flex;
+        flex-direction: column
+    }
+    .product__item-text7Res{
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .product__item-text8Res{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        width: 80%;
+    }
+    .product___item-img{
+        height: 220px;
+    }
+    .product___item-img img{
+        width: 100%;
+        height: auto;
+    }
+    .gallery_image_card img{
+        width: 50px;
+        height: 70px;
+       
+    }
+    .app_gallery_icons{
+        bottom: 25px;
+    }
+    /* .imgChange{
+        height: 450px!important;
+    } */
+    /* .product__item-text {
+        width: 60%;
+        line-height: 15px;
+    } */
+}
+
+@media screen and (max-width: 530px){
+    .product___item-img{
+        height: 220px;
+    }
+    .responsProduct{
+        margin-top: 30px;
+    }
+    /* .imgChange{
+        height: 380px!important;
+    } */
+    .product___item-images{
+        width: 100%;
+        height: 100%;
+    }
+    .product__item-text1{
+        font-size: 16px;
+       }
+       .product__item-text2{
+        font-size: 14px;
+       }
+       .product__item-priceNew{
+        font-size: 14px;
+       }
+       .product__item-priceOld{
+        font-size: 12px;
+       }
+       .rec-colors {
+        width: 95%;
+        height: 25px;}
+       .product__item-text3,
+       .product__item-textStrong{
+        font-size: 12px;
+       }
+       /* .product__item-btn {
+        width: 75%;
+       } */
+       .product__item-text8{
+        width: 75%;
+        line-height: 25px;
+
+       }
+       .product__item-colorGreen,
+       .product__item-colorPink,
+       .product__item-colorRed{
+        height: 12px;
+        width: 12px;
+       }
+       .product__item-colorRed.clickeddot,
+        .product__item-colorGreen.clickeddot,
+        .product__item-colorPink.clickeddot
+        {
+            height: 12px;
+            width: 12px;
+        
+        }
+      
+
+    .product__item-text4 {
+        width: 50%;
+        }
+    .product__item-btn{
+        padding: 10px 12px;
+        /* width: 86px; */
+        height: 34px;
+        border: 1px solid #113E2E;
+        border-radius: 4px;
+        font-size: 10px;
+       
+
+        }
+        .app_gallery_icons{
+            bottom: 25px;
+        }
+        /* .imgChange{
+            height: 430px!important;
+        } */
+        /* .product__item-text{
+            background-color: red;
+            line-height: 0px;
+        } */
+        .product__itemMinus{
+            width: 24px;
+            height: 24ps;
+        }
+}
+@media screen and (max-width: 480px){
+    .global_item_img{
+        width: 155px;
+        height: 400px;
+ 
+    }
+    .app_gallery_content {
+        top: 10px;
+      
+    }
+    
+
+}
+
+@media screen and (max-width: 430px){
+    .product__item-text3, .product__item-textStrong,.product__item-price{
+        display: flex;
+        align-items: center;
+        width: auto;
+
+    }
+    .rec-colors {
+        flex-wrap: wrap;
+        height: 25px;}
+
+    .product__item-text4{
+        width: 50%;
+    }
+    .product__item-block {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .product___item-img svg:hover{
+        height: 18px;
+        width: 18px;
+            }
+ 
+}
+@media screen and (max-width: 320px){
+    .product__item-text {
+        width: 53%;
+        line-height: 2px;
+    }
+}

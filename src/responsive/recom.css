@@ -1,0 +1,86 @@
+@media screen and (max-width: 744px){
+    .recommend{
+        font-size: 28px;
+    }
+    .rec-colorsSlide {
+        width: 20%;
+        margin-top: 0px;
+    }
+
+     .bottom{
+        padding-bottom: 20px;
+        
+    }
+
+}
+@media screen and (max-width: 680px){
+   .price{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 25px;
+   }
+
+   #recSlide .rec-card{
+    padding: 5px;
+   }
+}
+@media screen and (max-width: 450px){
+
+    .recommend{
+        font-size: 20px;
+        line-height: 0px;
+    }
+    .rec-colorsSlide{
+        width: 43%;
+    }
+
+    .bottom{
+        padding-bottom: 15px;
+    }
+    #recSlide .swiper-button-prev{
+        width: 24px;
+        height: 24px;
+        margin-left: 15px;
+      }
+      #recSlide .swiper-button-next {
+        width: 24px;
+        height: 24px;
+        margin-right: 15px;
+      
+      }
+      #recSlide .swiper-button-next:after{
+        font-size: 15px;
+      
+      }
+      #recSlide .swiper-button-prev:after{
+        font-size: 15px;
+      }
+      #recSlider .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        height: 6px;
+        width: 6px;
+        
+      }
+  
+
+ }
+ @media screen and (max-width: 400px){
+
+
+    .rec-colorsSlide{
+        width: 30%;
+    }
+    .rec_name {
+    
+        font-size: 15px;
+        line-height: 15px;}
+
+ }
+ @media screen and (max-width: 350px){
+
+
+    .rec-colorsSlide{
+        width: 35%;
+    }
+
+ }

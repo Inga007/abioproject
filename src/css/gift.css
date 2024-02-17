@@ -1,0 +1,143 @@
+.gift__container{
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid;
+    padding-bottom: 40px;
+
+}
+.gift__top{
+    width: 90%;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 50px;
+
+}
+.gift__top-green{
+    color:#58776D;
+    font-weight: 700;
+}
+.gift__minCont{
+    width: 90%;
+    margin: auto;
+}
+
+.giftCard__block{
+    /* background-image: url("../images/gift-bg.png");
+    background-repeat: no-repeat;
+    background-size: initial; */
+    background-color: none;
+    border: 1px solid #113E2E;
+    box-shadow: 0px 4px 4px rgba(17, 62, 46, 0.15);
+    border-radius: 4px;
+    width: 80%;
+    height: 265px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+
+    }
+.gifImg{
+    mix-blend-mode: multiply;
+    transform: rotate(40deg);
+    width: 320px;
+    height: 280px;
+    opacity: 0.7;
+    margin-right: 20px;
+}
+.gif__info{
+    width: 40%;
+}
+.giftCard-itemTxt{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 3px;
+    color: #113E2E;
+}
+.giftCard-itemInfo{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    width: 70%;
+    
+}
+.giftCard-itemBtn{
+    background: #FDFDFF;
+    border: 1px solid #113E2E;
+    border-radius: 4px;
+    color: #113E2E;
+    padding: 16px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+}
+.giftCard-itemBtn:hover{
+    background-color: #113E2E;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.giftCard__Info{
+    background: none;
+    border: 1px solid #113E2E;
+    box-shadow: 0px 4px 4px rgba(17, 62, 46, 0.15);
+    border-radius: 4px;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+
+}
+.GiftTop__info{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0E0E0E;
+
+}
+.giftIcon{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+
+}
+.giftIcon__txt{
+    width: 95%;
+}
+.advantages{
+    margin-bottom: 60px;
+}
+.gift__maxCont{
+    width: 95%;
+    margin: auto;
+}
+.attention{
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 60px;
+
+}
+.attentionTxt{
+    font-weight: 700;
+   
+}
+.giftCard-Link{
+    text-decoration: none;
+    color: #113E2E;
+}
+.block-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gifImgRes{
+display: none;
+}

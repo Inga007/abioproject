@@ -1,0 +1,820 @@
+
+.global-menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width:83%;
+     align-items: center;
+     margin-top: 20px;
+     position: relative;
+
+}
+ul{
+    padding-inline-start: 0px;
+}
+.global-menu__item{
+
+    text-transform: uppercase;}
+.phoneForRes a{
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+}
+
+.catalog{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.catalog__categoria{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.downGrey{
+    display: none;
+}
+.catalogIcone,.downGrey{
+    height: 5px;
+    width: 10px;
+}
+.global-menu__item{
+    /* text-transform: uppercase; */
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.global-menu__item:hover{
+    color: rgba(17, 62, 46, 0.8);
+}
+
+
+.global-menu img{
+    height: 15px;
+}
+.dowIcon{
+    width: 7px;
+}
+li {
+    text-decoration: none; 
+}
+.global-menu-block{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    /* text-transform: capitalize; */
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    /* padding-left:30px;
+    padding-right: 24px; */
+    /* width: 80%; */
+    font-size: 16px;
+    /* padding: 5px 16px 5px 16px; */
+
+}
+
+/* .item:hover {
+    background-color: #113E2E;
+    color: white;
+} */
+.item-name:hover{
+    background-color: #113E2E;
+    color: white;
+}
+
+
+.leftIcon{
+    display: block;
+    height: 2px;
+    width: 5px;
+}
+.dropdownWhite{
+    display: none;
+}
+
+.global-menu-block ul li{
+    list-style: none;
+}
+
+.global-menu-block1{
+    min-width: 250px;
+    padding-top: 15px;
+    background-color: white;
+    color: black;
+    display: none;
+    position: absolute;
+    z-index: 12;
+    height: 100vh;
+    left: 0;
+    padding-top: 15px;
+    
+}
+
+.dropdown2{
+
+    min-width: 250px;
+    width: 100%;
+    padding-top: 15px;
+   
+    color: black;
+    display: none;
+    position: relative;
+    z-index: 12;
+
+    left: 0;
+    padding-top: 15px;
+}
+.cat_item{
+    display: flex;
+    /* align-items: flex-start; */
+    align-items: flex-end  ;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #000;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 24px;
+  
+}
+.cat_item .activeIndoor{
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+    background-color: transparent;
+    padding: 10px 10px 16px 8px;
+  
+   
+}
+.cat_item .activeIndoor a{
+    text-decoration: none;
+    color: #000;
+}
+.cat_item .activeIndoor:hover a{
+    background: #113E2E;
+    color: #fff;
+      
+}
+.cat_item .activeIndoor:hover{
+    background: #113E2E;
+    color: #fff;
+      
+}
+/* .cat_item:hover {
+    background: #113E2E;
+    color: #fff;
+      
+} */
+
+.cat_item .activeIndoor:hover .imgdown, .cat_item p:hover .imgdown{
+   transform:  rotate(180deg);
+   filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+
+}
+.someClass{
+   position: relative;
+   z-index: 10;
+ 
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown2.show{
+
+    display: flex;
+    flex-direction: column;
+    left: 0%;
+    top:0%;
+}
+.dropdown2.dropdown-submenu{
+    left: 0%;
+    top:0%;
+}
+.dropdown {
+    min-width: 250px;
+    padding-top: 15px;
+    background-color: white;
+    color: black;
+    display: none;
+    position: absolute;
+    z-index: 12;
+    height: 100vh;
+    left: 0;
+    padding-top: 15px;
+}
+.dropdown.show{
+
+    display: block;
+    left: 100%;
+    top:0%;
+}
+.dropdown.dropdown-submenu{
+    left: 100%;
+    top:0%;
+}
+
+.global-menu-block11{
+    min-width: 250px;
+    padding-top: 15px;
+    background-color: white;
+    color: black;
+    display: none;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    left: 0;
+    padding-top: 15px;
+    
+}
+
+.global-menu-block1:hover .global-menu-block11{
+    display: block;
+    left: 100%;
+    top:0%;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+}
+.global-menu-block:hover .global-menu-block1{
+    display: block;
+}
+
+
+
+.leftDown_img {
+    filter: invert(0%) sepia(21%) saturate(7355%) hue-rotate(349deg) brightness(89%) contrast(89%);
+    cursor: pointer;
+}
+
+.block1:hover .block1img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+} 
+.global-menu-block11__item:hover .activeindoor{
+    background-color: #113E2E;
+    color: white;
+}
+
+.global-menu-block11__item:hover {
+    background-color: #113E2E;
+    color: white;
+}
+.global-menu__block-item:hover{
+    background-color: #113E2E;
+    color: white;
+}
+.global-menu__block-item:hover .activeseedsBulbs{
+    background-color: #113E2E;
+    color: white;
+}
+.global-menu__block-item:hover  .leftDown_img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+} 
+.global-menu-block11__item:hover .leftDown_img {
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+
+}
+/* .block1:hover  .leftDown_img {
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+    
+} */
+.pagesMenu{
+    min-width: 250px;
+    padding-top: 15px;
+    background-color: white;
+    color: black;
+    display: none;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    left: 0;
+    padding-top: 15px;
+}
+.global-menu__block12{
+    display: none;
+    background-color: white;
+    min-width: 250px;
+        padding-top: 15px;
+    padding-top: 15px;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    left: 100%;
+    top: 0;
+}
+
+.global-menu__block2{
+    display: none;
+    background-color: white;
+    min-width: 250px;
+        padding-top: 15px;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    left: 100%;
+    top: 0;
+}
+.global-menu__blok2-item{
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    min-width: 250px;
+        padding-top: 15px;
+    left: 100%;
+    top: 0;
+}
+.global-menu__block3-item{
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    min-width: 250px;
+     padding-top: 15px;
+    left: 100%;
+    top: 0;
+}
+.global-menu__block4-item{
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    min-width: 250px;
+    padding-top: 15px;
+    left: 100%;
+    top: 0;
+}
+.global-menu__block42{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 250px;
+    padding-top: 15px;
+    background-color: white;
+    left: 100%;
+    top: 0;
+}
+.global-menu__block5-item{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 250px;
+        padding-top: 15px;
+    background-color: white;
+    left: 100%;
+    top: 0;
+}
+.global-menu__block52{
+    display: none;
+    background-color: white;
+    width: 250px;
+        padding-top: 15px;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    left: 100%;
+    top: 0;
+}
+.global-menu__block54{
+    display: none;
+    background-color: white;
+    width: 250px;
+        padding-top: 15px;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    left: 100%;
+    top: 0;
+}
+.global-menu__block6-item{
+    display: none;
+    background-color: white;
+    width: 250px;
+        padding-top: 15px;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    left: 100%;
+    top: 0;
+    height: 100vh;
+}
+.global-menu__block61-item{
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 250px;
+        padding-top: 15px;
+    left: 100%;
+    top: 0;
+}
+.global-menu__block62-item{
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 250px;
+        padding-top: 15px;
+    left: 100%;
+    top: 0;
+}
+.global-menu__block63-item{
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 250px;
+        padding-top: 15px;
+    left: 100%;
+    top: 0;
+}
+.global-menu__block71-item{
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 250px;
+    padding-top: 15px;
+    left: 100%;
+    top: 0;
+    height: 100vh;
+}
+.global-menu__block72-item{
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 250px;
+    padding-top: 15px;
+    left: 100%;
+    top: 0;
+    height: 100vh;
+}
+
+.global-menu__block71{
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 250px;
+        padding-top: 15px;
+    left: 100%;
+    top: 0;
+    height: 100vh;
+}
+.global-menu__block8-item{
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 10;
+    width: 250px;
+    padding-top: 15px;
+    left: 100%;
+    top: 0;
+    height: auto;
+}
+
+
+.global-menu-block11__item:hover .global-menu__block12{
+    display: block;
+    
+}
+
+.itemNew:hover .activeItem{
+    color: white;
+}
+.global-menu__block2:hover .activeseedsBulbs{
+    background-color: red;
+}
+
+.global-menu__block-item:hover .global-menu__block2{
+    display: block;
+    
+}
+.global-menu__block-item:hover .activeseedsBulbs{
+    background-color: #113E2E;
+    color: white;
+}
+
+
+.global-menu__blok2:hover .global-menu__blok2-item{
+    display: block;
+    
+}
+.global-menu__blok2:hover {
+    background-color: #113E2E;
+    color: white;
+}
+
+.global-menu__blok2:hover .leftDown_img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+}
+.global-menu__block3:hover .leftDown_img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+}
+/* .global-menu__block4:hover .leftDown_img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+} */
+
+
+.global-menu__block61:hover .activebbq{
+    background-color: #113E2E;
+    color: white; 
+}
+.global-menu__block61:hover .leftDown_img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+}
+.global-menu__block62:hover .leftDown_img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+}
+.global-menu__block63:hover .leftDown_img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+}
+
+.global-menu__block62:hover .activeSauna{
+    background-color: #113E2E;
+    color: white; 
+}
+.global-menu__block63:hover .activePool{
+    background-color: #113E2E;
+    color: white; 
+}
+
+.global-menu__block3:hover .global-menu__block3-item{
+    display: block;
+    
+
+}
+
+.global-menu__block3:hover{
+    background-color: #113E2E;
+    color: white;
+
+}
+
+.global-menu__block4:hover .global-menu__block4-item{
+    display: block;
+    
+
+}
+
+.global-menu__block41:hover .global-menu__block42{
+    display: block;
+    
+
+}
+.global-menu__block41:hover .activeplastic{
+    background-color: #113E2E;
+    color: white;
+
+}
+.global-menu__block41:hover{
+    background-color: #113E2E;
+    color: white;
+}
+.global-menu__block41:hover .leftDown_img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+}
+
+.global-menu__block4:hover {
+    background-color: #113E2E;
+    color: white;
+}
+.global-menu__block4:hover .block4Img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+}
+
+.global-menu__block5:hover,
+.global-menu__block51:hover, 
+.global-menu__block53:hover{
+    background-color: #113E2E;
+    color: white;
+
+}
+.global-menu__block51:hover .activegardenTools{
+    background-color: #113E2E;
+    color: white;
+}
+.global-menu__block53:hover .activecoverings{
+    background-color: #113E2E;
+    color: white; 
+}
+.global-menu__block5:hover .global-menu__block5-item{
+    display: block;
+    
+
+}
+.global-menu__block51:hover .global-menu__block52{
+    display: block;
+    
+
+}
+.global-menu__block53:hover .global-menu__block54{
+    display: block;
+    
+
+}
+.global-menu__block5:hover .block5Img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+
+}
+.global-menu__block51:hover .leftDown_img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+}
+.global-menu__block53:hover .leftDown_img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+}
+.global-menu__block6:hover,
+.global-menu__block61:hover,
+.global-menu__block62:hover ,
+.global-menu__block63:hover {
+    background-color: #113E2E;
+    color: white;
+
+}
+.global-menu__block6:hover .global-menu__block6-item{
+    display: block;
+    
+
+}
+.global-menu__block61:hover .global-menu__block61-item{
+    display: block;
+    
+
+}
+.global-menu__block62:hover .global-menu__block62-item{
+    display: block;
+    
+
+}
+ .global-menu__block63:hover .global-menu__block63-item{
+    display: block;
+    
+
+    
+ }
+ .global-menu__block6:hover .block6Img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+
+}
+
+ .global-menu__block7:hover .global-menu__block71{
+    display: block;
+    
+
+}
+ .global-menu__house-item:hover .global-menu__block71-item{
+    display: block;
+    
+
+}
+ .global-menu__block72:hover .global-menu__block72-item{
+    display: block  ;
+ }
+ .global-menu__block8:hover .global-menu__block8-item{
+    display: block  ;
+
+ }
+
+
+.global-menu__block7:hover .block7Img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+
+}
+
+.global-menu__block7:hover{
+    background-color: #113E2E;
+    color: white;
+}
+.global-menu__block72:hover {
+    background-color: #113E2E;
+    color: white;
+ }
+ .global-menu__block72:hover .activeGarden{
+    background-color: #113E2E;
+    color: white;
+ }
+ .global-menu__block72:hover .leftDown_img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+
+ }
+ .global-menu__block8:hover {
+    background-color: #113E2E;
+    color: white;
+ }
+ .global-menu__block8:hover .leftDown_img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+
+ }
+.global-menu__house-item:hover{
+    background-color: #113E2E;
+    color: white;
+}
+.global-menu__house-item:hover .activeHouse{ 
+    background-color: #113E2E;
+    color: white;
+}
+.global-menu__house-item:hover .leftDown_img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+}
+.item-name{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 5px 16px 5px 16px;
+    margin-block-start: 0em;
+margin-block-end: 0em;
+}
+.item-name:hover{
+color: #fff;
+}
+.item-name:hover .leftDown_img{
+    filter: invert(100%) sepia(5%) saturate(7479%) hue-rotate(0deg) brightness(113%) contrast(108%);
+}
+.menu__item{
+    text-decoration: none;
+    color: black; 
+}
+
+
+.row-line{
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 120px;
+    border: 1px solid #7E7E80;
+}
+
+/* .ResponsMenu{
+    display: block;
+} */
+.ResponsMenuNon{
+    display: none;
+}
+.menuRes{
+    display: none;
+}
+.catalogGreen{
+    display: none;
+    width: 10px;
+}
+.global-menu-block:hover .catalogGreen{
+    display: block;
+}
+.global-menu-block:hover .catalogIcone{
+    display: none;
+}
+
+ .user-iconRes a {
+    position: relative;
+    list-style: none;
+    text-decoration: none;}
+.user-iconRes{
+    display: flex;
+}
+    
+    .likespan{
+       
+       position: absolute;
+       background-color: red;
+       right: -1px;
+       top: -5px;
+       width: 12px;
+       height: 12px;
+       text-align: center;
+       border-radius: 50%;
+       color: #fff;
+       z-index: 10;
+       font-size: 10px;
+    }
+    .likenone{
+       display: none;
+    }

@@ -1,0 +1,58 @@
+.policy__minCont{
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid;
+    padding-bottom: 40px;
+}
+.policy__top{
+    width: 90%;
+    margin: 0 auto;
+}
+.policy__info{
+    width: 90%;
+    margin: 40px auto;
+}
+.policty__textGlobal{
+    font-weight: 700;
+    font-size: 24px; 
+}
+.terms{
+    line-height: 28px;
+}
+.policty__textStrong{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+.policty__text{
+    font-weight: 400;
+    font-size: 20px;
+
+}
+@media screen and (max-width: 744px){
+    .policty__textGlobal{
+        font-size: 22px; 
+    }
+    .policty__textStrong,
+    .policty__text{
+        font-size: 16px; 
+
+    }
+    .policy__minCont{
+        padding-bottom: 20px;
+
+    }
+}
+@media screen and (max-width: 450px){
+    .policty__textGlobal{
+        font-size: 20px; 
+        
+    }
+    .policty__textStrong,
+    .policty__text{
+        font-size: 14px; 
+
+    }
+
+}

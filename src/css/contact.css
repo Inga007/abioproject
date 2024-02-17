@@ -1,0 +1,90 @@
+.contacts{
+    background-image: url("../images/bg.png");
+    border-top: 1px solid ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.global__contact{
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    line-height: 24px;
+    margin-top: 40px;
+}
+.ontact__info-icon img{
+    width: 24px;
+    height: 24px;
+}
+.contacts a{
+    text-decoration: none;
+    color: #0E0E0E;;
+}
+.contact__info-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    margin-top: 10px;
+    line-height: 40px;
+}
+
+.contact__info-input{
+    display: flex;
+    flex-direction: column;
+}
+.contact__info-input input{
+    background: none;
+    font-size: 16px;
+    padding: 10px;
+}
+.contact__info{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+
+}
+.conatct__input-item{
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 1px solid #79747E;
+}
+textarea{
+    background: none;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.contact__btn{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.contact__btn button{
+    padding: 16px, 36px, 16px, 36px;
+    width: 110px;
+    height: 50px;
+    background: #FDFDFF;
+    border: 1px solid #113E2E;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.contact__btn button:hover{
+    background-color: #113E2E;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.map__contact{
+    border-top: 1px solid;
+    width: 100%;
+}
+.contact__block{
+    margin-top: 10px;
+}

@@ -1,0 +1,97 @@
+.payment{
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.payment__text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+}
+.payment__text1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+
+}
+.payment__text2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+
+}
+.payment__down{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.payment__down-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    margin-top: 20px;
+}
+ th, td {
+    border: 1px solid #113E2E;
+    padding: 10px;
+    line-height: 10px;
+  }
+  table{
+    padding: 10px;
+    line-height: 10px;
+  }
+  .payment__item{
+    margin-left: 20px;
+    line-height: 30px;
+
+  }
+.payment__down-item{
+  font-weight: 700;
+}
+  .payment__top{
+    margin-top: 16px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .paymenttxt{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;    
+    color: #0E0E0E;
+    border-bottom: 2px solid #0E0E0E;
+    width: 700px;
+
+  }
+  
+  .paymentnone{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #CAC4D0;
+    border-bottom: 1px solid #CAC4D0;
+    width: 700px;
+  }
+
+  .tableContainer {
+    height: 300px;
+    width: 360px;
+    overflow: scroll;
+}

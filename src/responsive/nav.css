@@ -1,0 +1,301 @@
+@media screen and (max-width: 1400px){
+   .nav-info{
+ 
+      width: 30%;
+  }
+  .nav{
+ 
+   width: 100%;
+   margin: 20px auto;
+}
+}
+@media screen and (max-width: 1199px){
+   .nav-info{
+ 
+      width: 30%;
+  }
+  .nav-input input {
+   
+   width: 350px;
+}
+}
+@media screen and (max-width: 1005px){
+   .nav-info{
+ 
+      width: 40%;
+  }
+}
+@media screen and (max-width: 990px){
+   .nav-input, .nav-info_phone{
+      display: none;
+   }
+   .phoneForRes{
+      display: block;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 22%;
+      font-weight: 700;
+      font-size: 16px;
+   }
+   .navbar-down{
+     display: flex;
+     justify-content: space-between;
+     width: 75%;
+     margin: 0 auto;
+     align-items: center;
+     margin-top: 5%;
+     margin-bottom: 5%;
+  }
+   .nav-info{
+      display: flex;
+      flex-direction: column;
+     
+   }
+   .nav__forRes{
+      display: block;
+   }
+   .burger{
+      display: flex;
+   }
+   .user-icon{
+      display: none;
+   }
+   .serchRes{
+     display: flex;
+     margin-right: 10px;
+   }
+   .serch-flag{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   }
+
+   .global__menu{
+      display: none;
+   }
+   .bigFlag{
+      width: 30px;
+      height: 15px;
+   }
+   .nav{
+      display: none;
+   }
+   .like{
+      margin-right: 5px;
+   }
+}
+
+@media screen and (max-width: 744px){
+
+   .nav__forRes{
+      display: block;
+   }
+   .nav-input input{
+      height: 36px;
+      width: 220px;
+      border-radius: 10px;
+
+      
+  }
+  .logoImg{
+   width: 110px ;
+   height: 34px ;
+
+  }
+  .phoneForRes {
+   width: 26%;
+  }
+
+}
+@media screen and (max-width: 600px){
+   .phoneForRes {
+      width: 28%;
+     }
+}
+@media screen and (max-width: 550px){
+   input{
+      height: 36px;
+      width: 220px;
+      border-radius: 10px;
+
+   }
+   .inputRes input{
+
+      width: 170px;
+      height: 30px;
+   }
+   .phoneForRes {
+      width: 30%;
+     }
+
+  .flags {
+   position: absolute;
+   top: -20%;
+   margin-left: 5px;
+
+      /* display: flex;
+      align-items: center;
+      list-style-type: none; */
+      z-index: 500;
+      background-color: white;
+  }
+ 
+}
+@media screen and (max-width: 510px){
+   .flags {
+    
+      margin-left: 25px;}
+   .phoneForRes {
+      width: 25%;
+     }
+     .flag {
+      width: 55px;
+      height: 50px;
+      /* margin-left: 20px; */
+
+  }
+  .iconSerch-res{
+   margin-left: 10px;
+   padding: 0px!important;
+  }
+ 
+}
+@media screen and (max-width: 470px){
+
+   .inputRes input{
+
+      width: 150px;
+      height: 30px;
+   }
+
+}
+@media screen and (max-width: 450px){
+
+   .inputRes input{
+
+      width: 130px;
+      height: 30px;
+   }
+   .phoneForRes {
+      width: 30%;
+     }
+     .nav__forRes-top {
+      margin-top: 10px;
+     }
+ 
+}
+@media screen and (max-width: 500px){
+   .logoImg{
+      height: 19px;
+      width: 60px;
+     }
+   .phoneForRes img{
+      height: 12px;
+      width: 12px;
+   }
+   .phoneForRes{
+      font-size: 12px;
+   }
+   .serchRes img{
+      height: 12px;
+      width: 12px;
+   }
+ .bigFlag{
+   height: 12px;
+   width: 24px;
+ }
+ .arrow-down{
+   height: 3px;
+   width: 6px;
+
+ }
+ .burgerImg{
+   height: 16px;
+   width: 24px;
+
+
+ }
+ .like{
+   height: 14px;
+   width: 16px;
+   
+ }
+ .shop{
+   height: 16px;
+   width: 16px;
+ }
+ .inputRes input{
+
+   /* width: 70px; */
+   height: 20px;
+   font-size: 10px;
+}
+.inputRes img{
+   width: 10px;
+   height: 10px;
+}
+.iconCloseSerch {
+ 
+   right: 10px;
+   padding: 0px;
+}
+
+
+}
+
+@media screen and (max-width: 360px){
+
+ 
+   .phoneForRes {
+      font-size: 12px;
+      width: auto;
+
+  }
+}
+@media screen and (max-width: 310px){
+
+
+   .phoneForRes {
+      font-size: 10px;
+  }
+}
+
+.inputSerch{
+   display: none;
+}
+.inputRes{
+   display: block;
+   height: 50px;
+   position: relative;
+   display: flex;
+   align-items: center;
+
+}
+.serchResNo{
+   display: none;
+}
+.iconSerch-res{
+   position: absolute;
+   padding: 10px;
+}
+
+
+.iconCloseSerch{
+   position: absolute;
+   right: 10px;
+   /* padding-right: 10px; */
+
+}
+.noCloseSerch{
+   display: block;
+}
+.closeSerch{
+   display: none;
+}
+.aaaa{
+   display: flex;
+}
+.bbbb{
+   display: block;
+}

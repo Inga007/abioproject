@@ -1,0 +1,226 @@
+.recommend{
+       text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+    padding: 30px 10px 16px 8px;
+    border-top: 1px solid;
+
+}
+.viewAll{
+    text-align: right;
+    width: 95%;
+    text-decoration: underline;
+
+}
+#recSlide .rec-card{
+    border: 1px solid #113E2E;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    /* margin-left: 10px; */
+ 
+
+}
+.rec__link{
+    text-decoration: none;
+    color: black;
+}
+.recImg:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+.rec-colorsSlide{
+    display: flex;
+    justify-content: flex-start;
+    width: 95%;
+    height: 15px;
+}
+
+ .W, .B, .G, .BL,.V, .R, .P, .BR, .I, .GR, .O, .Y, .GL, .S, .C{
+    height: 12px;
+    width: 12px;
+    border: 1px solid #d4d2d2; 
+    border-radius: 50%;   
+    margin-right: 5px;
+}
+.GR{
+
+    background-color: #113E2E;
+
+}
+.GL{
+
+    background-color: linear-gradient(#BF953F,#FBF5B7,#A38A00)
+  
+}
+
+.BR{
+  
+    background-color: #722c0a;
+
+}
+.W{
+ 
+    background-color: #fff;
+  
+}
+.P{
+ 
+    background-color: #EFD4C4;
+}
+.R{
+  
+    background-color: #CC0000;
+
+
+}
+ .G{
+    background-color: #8b8481;
+    
+}
+ .V{
+    background-color: #ba97e7;
+    
+}
+.I{
+    background-color: #edccb4;
+    
+}
+ .S{
+    background-color: 	#c0c0c0;
+    
+}
+.B{
+    background-color: #000;
+    
+}
+ .BL{
+    background-color: #114799;
+    
+}
+ .Y{
+    background-color: #f7c514;
+    
+}
+ .O{
+    background-color: orange;
+    
+}
+.C{
+    background: url('../images/color/multe.svg');
+}
+
+.rec__info{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.rec-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.price__rec{
+    width: 100%;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+}
+.rec-price img{
+    width: 20px;
+    height: 20px;
+}
+.new-price{
+    border: 1px solid #EFD4C4    ;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    
+}
+.old-price{
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.rec_name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    height: 30px;
+    line-height: 16px;
+    padding-top: 5%;
+}
+.bottom{
+    padding-bottom: 40px;
+}
+.rec-card{
+    position: relative;
+}
+.rec-card svg{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 200;
+    cursor: pointer;
+}
+.rec-card svg:hover{
+    fill: red;
+    
+    transition:  0.5s ease-in-out;
+}
+.rec-card svg:hover path{
+    stroke: red;
+
+}
+#recSlide .swiper-button-next {
+    width: 48px;
+    height: 48px;
+    background: rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+  
+  }
+  #recSlide .swiper-button-next:after{
+    font-size: 25px;
+  
+  }
+  #recSlide .swiper-button-prev:after{
+    font-size: 25px;
+  }
+  #recSlide .swiper-button-prev{
+    width: 48px;
+    height: 48px;
+    background: rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+  }
+  
+  #recSlide{
+    margin-bottom: 40px;
+  }
+  .shopcart{
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .shopcart։hover{
+    background: rgba(0,0,0,.2);
+    transition: 0.5s;
+    border-radius: 5px;
+  }

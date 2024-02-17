@@ -1,0 +1,134 @@
+body{
+  font-family:'Roboto';
+
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+.servic{
+    background-image: url("../images/bg.png");
+    border-top: 2px solid ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.hover-underline-animation{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #113E2E;
+    width: 490px;
+    height: auto;
+    padding: 10px;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #113E2E;
+    padding: 20px 16px 20px 10px;
+}
+.hover-underline-animation:hover {
+    background-color: white;
+}
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:  #113E2E;
+    transform-origin: bottom right;
+    transition: transform 3s ease-out;
+    
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .services__text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+  }
+ 
+  .services-txt{
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    margin-top: 30px;
+  }
+.services__item{
+  width: 60%;
+}
+ 
+  .services__info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 56px;
+    
+  }
+
+  .services__btn{
+    background: #FDFDFF;
+    border: 1px solid #113E2E;
+    border-radius: 8px;
+    padding: 16px 36px;
+    margin-top: 30px;
+    cursor: pointer;
+
+  }
+  .services__btn:hover{
+    background-color: #113E2E;
+    color: white;
+    transition: 1s;
+  }
+  .services__txt{
+  width: 80%;
+  margin-bottom: 20px;
+  }
+
+  .services__global{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    color: #000000;
+    text-align: left;
+    font-family:'Roboto';
+  }
+
+  .payment__top{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    overflow: hidden;
+  }
+  .services__img img{
+    width: 570px;
+    height: 300px;
+}
+.services__respons{
+  display: none;
+}
+
+@media screen and (max-width: 1300px){
+  .services__item{
+    width: 55%;
+  }
+}
+@media screen and (max-width: 1180px){
+  .services__item{
+    width: 50%;
+  }
+}

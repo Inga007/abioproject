@@ -1,0 +1,165 @@
+@media screen and (max-width: 990px){
+    .gift__top{
+    font-size: 14px;   
+    }
+    .giftCard-itemTxt{
+        font-size: 28px;
+        line-height: 34px;
+
+    }
+    .giftCard-itemInfo{
+        font-size: 20px;
+    line-height: 23px;
+    }
+    .gifImg{
+        margin-right: 0px
+    }
+    .giftCard-itemBtn{
+        padding: 16px, 36px, 16px, 36px;
+    }
+    .giftIcon__txt {
+        width: 90%;
+    }
+    .attention {
+        margin: 40px auto;
+    }
+}
+@media screen and (max-width: 950px){
+    .block-item{
+        margin-top: 0px;
+    }
+    .giftCard__block,.giftCard__Info{
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width: 850px){
+ 
+    .gifImg {
+        width: 270px;
+    }
+    .giftCard-itemBtn{
+        margin-bottom: 50px;
+    }
+    .giftCard-itemInfo {
+        width: 80%;
+    }
+
+}
+@media screen and (max-width: 750px){
+    .gifImg{
+        width: 250px;
+        height: 250px;
+    }
+    .block-item{
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+    .giftCard-itemInfo {
+        width: 100%;
+    }
+    .giftCard-itemBtn {
+        margin-bottom: 70px;
+    }
+    .attention{
+        font-size: 16px;
+    }
+    .gift__top {
+        margin: 30px auto;
+
+    }
+} 
+@media screen and (max-width: 650px){
+    .gifImg {
+        width: 220px;
+        height: 220px;
+    }
+}
+@media screen and (max-width: 650px){
+    .giftCard__block{
+        display: flex;
+        flex-direction: column;
+    }
+    .gifImg{
+        display: none;
+    }
+    .gifImgRes{
+        display: block;
+        width: 98px;
+        height: 98px;
+        transform: rotate(40deg);
+        opacity: 0.7;
+    }
+    .giftCard-itemRes{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 50px;
+    }
+    .block-item{
+        padding-top: 0px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 550px){
+    .block-item{
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width: 470px){
+    .GiftTop__info{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+    }
+    .giftIcon img{
+        width: 20px;
+        height: 18px;
+    }
+    .giftIcon__txt{
+        font-size: 14px;
+    }
+    .gift__top {
+        margin: 20px auto;
+
+    }
+}
+@media screen and (max-width: 440px){
+    .giftCard-itemTxt{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .giftCard-itemInfo{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .giftCard-itemBtn{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #113E2E;
+        height: 44px;
+        padding: 14px 24px;
+    }
+    .attention {
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+}
+@media screen and (max-width: 350px){
+    .giftCard-itemTxt,.giftCard-itemTxt {
+        font-size: 20px;
+    }
+    .giftCard-itemInfo,.giftCard-itemInfo {
+        font-size: 14px;
+    }
+    .giftIcon__txt {
+        width: 85%;
+    }
+ 
+}

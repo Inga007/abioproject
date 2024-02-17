@@ -1,0 +1,79 @@
+@media screen and (max-width: 744px){
+    .card-img{
+        /* width: 220px;
+        height: 180px; */
+        width: 110px;
+        height: 160px;
+
+    }
+    .card-info-name{
+        font-size: 20px;
+
+    }
+}
+
+@media screen and (max-width: 650px){
+    .shopingCard{
+        width: 550px;
+    }
+}
+@media screen and (max-width: 630px){
+    .shopingCard{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 680px){
+    .shopingCard{
+        width: 480px;
+    }
+}
+@media screen and (max-width: 550px){
+    .shopingCard{
+        width: 430px;
+    }
+    /* .card-img{
+        height: 160px;
+        width: 200px;
+  
+
+    } */
+    .card-shop {
+        width: 90%;
+
+
+    }
+}
+@media screen and (max-width: 450px){
+    .shopingCard{
+        width: 100%;
+    }
+    .shop__down-count{
+        font-size: 18px;
+        width: 90%;
+    }
+    .shop__down-btn{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+    .shop__top{
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    /* .card-img {
+        width: 50%;
+    } */
+    .card-info{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 370px){
+    /* .card-img {
+      width: 50%;
+    } */
+    .card-info{
+        width: 100%;
+    }
+}
