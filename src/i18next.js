@@ -3,12 +3,12 @@ import { initReactI18next } from "react-i18next";
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-// import customPath from './Custompath.js';
+import customPath from './Custompath.js';
 import HttpApi from 'i18next-http-backend'
 
-// const languageDetector = new LanguageDetector();
+const languageDetector = new LanguageDetector();
 
-// languageDetector.addDetector(customPath);
+languageDetector.addDetector(customPath);
 
 
 // i18n.on('languageChanged', function (lng) {

@@ -62,9 +62,7 @@ const Menunew = ({ items, depthLevel }) =>{
           {items?.url ?
            <Link  
           className="item-name  activeItem1" to={`/product/cat/dog/sheep/${i18n.language}`}  
-          style={{
-            // color: isBackgroundGreen ? 'black' : 'blue',
-          }} >
+         >
            
             {items.title}
            

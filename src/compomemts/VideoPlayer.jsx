@@ -28,23 +28,23 @@ const VideoPlayer=()=>{
  
 
 
-  // const fetchPosts = async (lng) => {
-  //   let lang =lng.slice(0,2).toUpperCase()
+  const fetchPosts = async (lng) => {
+    let lang =lng.slice(0,2)
   
-  //   const res= await axios.get(`${url}/abio/public/get/video/byLang?language=${lang}`)
+    const res= await axios.get(`${url}/abio/public/get/video/byLang?language=${lang}`)
                               
                                
     
  
-  //   setVideo(res.data)
+    setVideo(res.data)
     
-  // }
+  }
 
 
-  // useEffect(() => {
-  //   fetchPosts(i18n.language)
+  useEffect(() => {
+    fetchPosts(i18n.language)
   
-  // }, [i18n.language]);
+  }, [i18n.language]);
 
 
 

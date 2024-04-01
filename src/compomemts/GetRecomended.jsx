@@ -73,8 +73,8 @@ const GetRecomended=()=>{
     
     useEffect( () => {
     const isCanseled = axios.CancelToken.source();
-    let lang =i18n.language.slice(0,2).toUpperCase()
-    axios.get(`${url}/abio/public/getRecommendedProducts?language=${lang}&page=0&size=50`,{
+    let lang =i18n.language.slice(0,2)
+    axios.get(`https://abio.am:8443/abio/public/getRecommendedProducts?language=${lang}&page=0&size=50`,{
       isCanseled: isCanseled.token
     }
     ).then( responce => {

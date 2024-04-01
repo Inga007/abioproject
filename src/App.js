@@ -30,10 +30,10 @@ function App() {
   
   const {t,i18n}=useTranslation()
 const {lang} = useParams()
- const {category1} =useParams()
- const {category2} =useParams()
+//  const {category1} =useParams()
+//  const {category2} =useParams()
 
- const {category3} =useParams()
+//  const {category3} =useParams()
 
 //  function getRoute(path) {
 //   let args = Array.prototype.slice.call(arguments, 1);
@@ -152,7 +152,7 @@ const {lang} = useParams()
         
       <Route index  
        path= {`/:${i18n.language}`}
-      // element={<Navigate to={`/${i18n.language}`} replace />}
+      
 
       element={<Home />}
       />
@@ -176,7 +176,7 @@ const {lang} = useParams()
       <Route path="card/:productCode/tabs" element={<Tabs/>}/>
       <Route path={`/product/:category1?/:category2?/:category3?/:lang`} element={<Products/>}/>
       </Route>
-      {/* </Route> */}
+      
       
     </Routes>
 

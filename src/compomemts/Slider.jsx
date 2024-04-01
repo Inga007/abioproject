@@ -48,9 +48,9 @@ const Slider =(props)=>{
 
 
     const fetchPosts = async () => {
-     
+      let lang =i18n.language.slice(0,2)
                                  
-    const res= await axios.get(`${url}/abio/public/get/headers`).then(res =>{
+    const res= await axios.get(`https://abio.am:8443/abio/public/get/headers?language=${lang}`).then(res =>{
       setslideCard(res.data)
     })
   

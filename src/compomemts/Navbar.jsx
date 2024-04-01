@@ -253,9 +253,7 @@ const renderLang = () =>{
    
   },[i18n.language])
 
-  console.log(languages)
-
-
+ 
 
 
 
